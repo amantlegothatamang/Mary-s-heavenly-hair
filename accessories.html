@@ -37,6 +37,23 @@
                 <h1>Elastic band</h1>
                 <p>Edges wig band</p>
                  <p>Price:P100 </p>
+                <details class="order-section">
+  <summary>Place Order</summary>
+  <form action="#order-confirmation" method="get" class="order-form">
+    <input type="hidden" name="product" value="Elastic Band">
+
+    <label for="name">Full Name:</label><br>
+    <input type="text" name="name" required><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" required><br>
+
+    <label for="additional">Additional Products or Notes:</label><br>
+    <textarea name="additional" rows="3" placeholder="Optional..."></textarea><br>
+
+    <button type="submit">Submit Order</button>
+  </form>
+</details>
             </aside>
             <article class="main-content">
                 <img src="images/accessory 2.jpg" class="small-image" alt="" >
@@ -110,6 +127,9 @@
                 <img src="images/combo 3.jpg" class="small-image" alt="">
                  <h1>Hot combo</h1>
                 <p>Price:P1000.00 </p>
+                <div id="order-confirmation">
+  <h3 style="color: green;">✔️ Your order has been placed successfully!</h3>
+</div>
             </aside>
         </main>
          
