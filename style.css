@@ -240,6 +240,16 @@ nav ul li a{
 .order-form button:hover {
   background-color: #333;
 }
+.order-confirmation {
+  display: none;
+  color: green;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+details:target .order-confirmation {
+  display: block;
+}
 
 /*tablets*/
 @media screen and (max-width:768px)
