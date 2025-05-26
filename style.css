@@ -204,6 +204,42 @@ nav ul li a{
 .explore-button:hover {
   background-color: #444;
 }
+.order-section {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.order-section summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 0;
+  color: black;
+}
+
+.order-form input,
+.order-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.order-form button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.order-form button:hover {
+  background-color: #333;
+}
 
 /*tablets*/
 @media screen and (max-width:768px)
