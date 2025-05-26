@@ -255,33 +255,9 @@ details:target .order-confirmation {
 @media screen and (max-width:768px)
   {  .container{
         flex-direction: column;
-        align-items: center;}
+        align-items: center;
+  }
 
-.sidebar{
-    width: 90%;
-    margin-bottom: 20px;}
-
-.main-content{
-    width: 90%;}
- }
-#order-confirmation {
-  display: none;
-}
-
-:target#order-confirmation {
-  display: block;
-  margin-top: 20px;
-}
-.order-confirmation {
-  display: none;
-  color: green;
-  margin-top: 10px;
-  font-weight: bold;
-}
-
-details:target .order-confirmation {
-  display: block;
-}
 /*smartphones*/    
 @media screen and (max-width:480px){
      header{
