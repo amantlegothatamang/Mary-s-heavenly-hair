@@ -255,15 +255,21 @@ details:target .order-confirmation {
 @media screen and (max-width:768px)
   {  .container{
         flex-direction: column;
-        align-items: center;
-  }
+        align-items: center;}
 
+.sidebar{
+    width: 90%;
+    margin-bottom: 20px;}
+
+.main-content{
+    width: 90%;}
+ }
 /*smartphones*/    
 @media screen and (max-width:480px){
      header{
-        flex-direction:column;
-        text-align:centre;
-    
+  flex-direction:column;
+  text-align:center;
+    }
 }
 
 footer{
@@ -274,4 +280,3 @@ footer{
     margin-top: 20px;
     font-size: 14px;
     }
-
